@@ -1,15 +1,18 @@
 
 body{
-    background-image: url("../Images/backgrnd2.jpg");
+    background-image: url("../Images/backgrnd.jpg");
     height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     
-}
+} 
 
 
 
 .home{
-    background-color: rgb(255, 255, 255);
-    border: lightgray;
+    background-color:darkslategrey;
+  color: #CECECE;
+  border:#CECECE;
     padding: 10px 20px;
     text-align: center;
     display: inline-block;
@@ -18,8 +21,9 @@ body{
     border-radius: 8px;
 }
 .about{
-    background-color: rgb(255, 255, 255);
-    border: lightgray;
+    background-color:darkslategrey;
+    color: #CECECE;
+    border:#CECECE;
     padding: 10px 20px;
     text-align: center;
     display: inline-block;
@@ -29,8 +33,9 @@ body{
 }
 
 .resume{
-    background-color: rgb(255, 255, 255);
-    border: lightgray;
+    background-color:darkslategrey;
+  color: #CECECE;
+  border:#CECECE;
     padding: 10px 20px;
     text-align: center;
     display: inline-block;
@@ -51,12 +56,13 @@ body{
     min-width: 700px;
     /* min-width: 50%;
     max-width: 80%; */
-   
+   border: 10px;
 }
 
 
 .img{
     background-image: url("../Images/sayali.jpg");
+    border-color: grey;
     opacity: 0.9;
     width: 200px;
     border-radius: 15px;
@@ -66,18 +72,17 @@ body{
 }
 .introduction{
     
-    
     justify-content: center;    
-    padding: 30px;
+    /* padding: 30px; */
     width: 300px;
 
 }
     
 .text{
-    color:white;
+    color:grey;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: x-large;
+    font-size: larger;
     line-height: 1.5;
 }
 .footer{
@@ -89,4 +94,16 @@ body{
     position: fixed;
     bottom: 0;
     cursor: pointer;
+}
+
+.linkedin{
+    width: 30px;
+}
+
+.behance{
+    width: 30px;
+}
+.footerButtons{
+    border: none;
+    background-color: transparent;
 }
